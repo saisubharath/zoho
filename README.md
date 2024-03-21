@@ -940,5 +940,17 @@ if (isset($_POST['submit'])) {
 </html>
 
 
+14.Laravel
+cmd
+composser -v
+php -v
+path:
+D:-learn - workspace any folder
 
-
+cmd
+composser create-project laravel/laravel student-reg
+for error
+c->zamp -> php folder-> php.ini file drag into the vs code in line 892 
+go to line 962 remove the ; infront of the extension
+cd student-reg
+php artisan serve
