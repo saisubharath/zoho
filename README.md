@@ -954,3 +954,17 @@ c->zamp -> php folder-> php.ini file drag into the vs code in line 892
 go to line 962 remove the ; infront of the extension
 cd student-reg
 php artisan serve
+
+
+vs code:
+vapp
+web.php
+.env
+migration:
+
+php artisan make:controller studentcontroller
+php artisan make:model student
+php artisan make:migration create_-students_-table
+extension:
+student-reg.blade.php
+in html code add @csrf in line 58
